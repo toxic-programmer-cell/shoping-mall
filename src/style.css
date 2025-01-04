@@ -1,0 +1,134 @@
+.profile-container{
+    position: fixed;
+    border-radius: 12px;
+    background: #fff;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/6-col/img%20(122).jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.crossBtn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    background: #d3cbcb;
+}
+.profile-Image{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    background: #d6d3d3;
+}
+.logo{
+    width: 10rem;
+    height: 10rem;
+}
+.link-div{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+.log-in{
+    display: flex;
+    width: auto;
+    align-items: center;
+    height: 27px;
+    justify-content: center;
+    border-radius: 12px;
+    background: green;
+    border: 3px solid #9dff9d;
+    color: #fff;
+}
+.form-style{
+    color: #fff;
+    width: 347px;
+    border: 4px dashed rgb(5, 214, 5);
+    border-radius: 12px;
+    background: #22202060;
+    gap: 1rem;
+}
+.form-style input{
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    flex: 1;
+}
+.text-center h2{
+    font-size: 2rem;
+        color: #0f0f0f;
+        font-weight: 700;
+        text-transform: uppercase;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+}
+.cancle{
+    flex: 1;
+    border: 0;
+    border-radius: 5px;
+    background: #ff2d2d;
+    font-weight: 600;
+}
+.submit{
+    flex: 1;
+    border: 0;
+    border-radius: 5px;
+    background: #00a431;
+    font-weight: 600;
+}
+.product{
+    /* display: flex;
+    flex-direction: column; */
+    width: 32% !important;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px;
+    padding: 0 !important;
+}
+.product:hover{
+    transition: all .3s ease-in-out;
+    transform: scale(1.04);
+    box-shadow:  5px 5px 12px #c6c7c4,
+             -5px -5px 12px #ffffff;
+}
+.p-container{
+    gap: 20px;
+}
+.cardDetails{
+    padding: 18px;
+    border: 1px solid #e6e4e4;
+    margin: 1rem;
+    border-radius: 18px;
+    background: #ffd486;
+}
+.reviews{
+    border: 1px solid #dedcdc;
+    padding: 1rem;
+    border-radius: 13px;
+    gap: 1rem;
+    background: #f5efef;
+}
+.review-card{
+    border: 1px solid #e6dede;
+    padding: 1rem;
+    border-radius: 20px;
+    background: #fff;
+}
+.cart-alert{
+    position: absolute !important;
+}
